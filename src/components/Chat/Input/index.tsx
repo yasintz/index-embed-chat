@@ -38,12 +38,14 @@ const ChatInput = ({
       <div className="flex justify-between rounded border-2 border-gray-100 mb-4 p-2.5 gap-2 dark:border-gray-400">
         <input
           placeholder="Ask to all indexes"
-          className="flex-1 outline-0 dark:bg-stone-900 dark:text-gray-200"
+          className={cx(
+            'flex-1 outline-0 dark:bg-stone-900 dark:text-gray-200',
+            disabled && 'pointer-events-none'
+          )}
           value={message}
           onChange={(e) => onMessageChange(e.target.value)}
           onKeyDown={onKeyDown}
           ref={inputRef}
-          disabled={disabled}
         />
         <Send
           size={24}

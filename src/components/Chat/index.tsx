@@ -46,7 +46,7 @@ const Chat = ({
     >
       <ChatHeader photo={user.photo} onReset={onReset} />
       <div
-        className="flex-1 overflow-y-auto"
+        className="flex-1 overflow-y-auto no-scrollbar"
         ref={scrollRef}
         data-testid="scroll-container"
       >
