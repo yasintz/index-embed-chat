@@ -6,7 +6,7 @@ type ChatInputProps = {
   onSubmit: () => void;
   message: string;
   onMessageChange: (text: string) => void;
-  disabled: boolean;
+  disabled?: boolean;
 };
 
 const ChatInput = ({
