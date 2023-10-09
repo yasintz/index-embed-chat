@@ -1,0 +1,21 @@
+.blinkingCursor {
+  display: inline-block;
+  margin-left: 4px;
+  width: 8px;
+  animation: blink 1s infinite;
+}
+
+:is([data-index-chat-theme='dark'] .blinkingCursor) {
+  width: 6px;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.1%,
+  100% {
+    opacity: 0;
+  }
+}
