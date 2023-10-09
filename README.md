@@ -1,8 +1,7 @@
 # Index Embed Chat
 This library enables you to integrate the chat experience provided by index.network into your website seamlessly.
 
-https://github.com/yasintz/index-embed-chat/assets/36041339/b9a9e45f-74a9-45e0-81b3-cdc5d3fd7ba5
-
+https://github.com/yasintz/index-embed-chat/assets/36041339/c4574880-33a6-4527-b715-dba5092e8256
 
 ## How to use
 1. install index network embedded chat library
